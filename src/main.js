@@ -12,11 +12,15 @@ import { createVuetify } from 'vuetify'
 import * as components from 'vuetify/components'
 import * as directives from 'vuetify/directives'
 
+import axios from 'axios'
+
 const app = createApp(App)
 const vuetify = createVuetify({
     components,
     directives,
 })
+
+axios.defaults.baseURL = "http://localhost:8000"
 
 app.use(createPinia())
 app.use(router)
