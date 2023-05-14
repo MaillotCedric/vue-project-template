@@ -30,7 +30,14 @@ This template uses [Vuetify](https://vuetifyjs.com/en/).
 
 ## Installation
 
-``` pow
+``` powershell
+cd vue-project
 npm install
-npm format
+npm run format
+```
+
+## Run server
+
+``` powershell
+npm run dev
 ```
