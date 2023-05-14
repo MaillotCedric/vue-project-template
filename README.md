@@ -31,14 +31,11 @@ This template uses [Vuetify](https://vuetifyjs.com/en/).
 ## Installation
 
 ``` powershell
-cd vue-project
 npm install
 npm run format
 ```
 
 ### Compile and Hot-Reload for Development
-
-Make sure you are in `vue-project` folder and run the following command in the terminal :
 
 ``` powershell
 npm run dev
