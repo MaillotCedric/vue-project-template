@@ -38,6 +38,8 @@ npm run format
 
 ## Run server
 
+Make sure you are in `vue-project` folder and run the following command in the terminal :
+
 ``` powershell
 npm run dev
 ```
