@@ -13,7 +13,8 @@ import HelloWorld from './components/HelloWorld.vue'
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/login">Login</RouterLink>
+        <!-- login form using an API hosted on localhost (port 80) -->
+        <!-- <RouterLink to="/login">Login</RouterLink> -->
       </nav>
     </div>
   </header>
