@@ -74,3 +74,51 @@ npm run test:e2e
 npm run lint
 ```
 
+## Quick installation
+
+For a quick and easy installation we using **Docker**, so make sure you have Docker installed.
+
+> [How to install and use Docker](https://docs.docker.com/)
+
+### Containerize the application
+
+Run the following command in the terminal of the repository :
+
+```bash
+docker compose up -d --build
+```
+
+### Access the application
+
+Now that we have our container up and running, we can easily access the application by opening our favorite browser to http://localhost:5173
+
+## Update the application
+
+Since our application is containerized, when you update the application, you are gonna have to rebuild the Docker container to see the effective updates.
+
+You can rebuild the container by running the following commands in the terminal of the repository :
+
+```bash
+# rebuild the container
+docker compose up -d --build
+# remove old images
+docker image prune
+```
+
+## Stop the container
+
+You can stop the container by running the following command in the terminal of the repository :
+
+```bash
+docker compose stop
+```
+
+> When stopping the container, the application is not accessible anymore.
+>
+> To access the application again, you are gonna have to restart the container.
+
+You can restart the container by running the following command in the terminal of the repository :
+
+```bash
+docker compose start
+```
